@@ -1,0 +1,7 @@
+interface:
+  display_name: "Virtual Character Realism Design"
+  short_description: "让中文虚拟角色更像人，并分流写入角色卡、世界书、记忆和预设"
+  default_prompt: "Use $virtual-character-realism-design-zh 帮我把一个中文虚拟角色想法整理成更像人、可长期扮演、可写入平台的角色系统。"
+
+policy:
+  allow_implicit_invocation: true
