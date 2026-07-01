@@ -43,9 +43,31 @@ MIT License. Copyright (c) 2026 cOkieeman.
 
 Third-party license notices are collected in [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
 
-## 作为 Codex Skill 使用
+## 安装与使用
 
-把 `virtual-character-realism-design-zh/` 这个文件夹放到 Codex 可读取的 skills 目录，或在支持 skill 仓库导入的环境中指向本仓库。
+### Codex Skill
+
+推荐用 Codex 的 skill 安装能力，从 GitHub 仓库里的 skill 子目录安装：
+
+```text
+Use $skill-installer install https://github.com/cOkieeman/virtual-character-realism-design-zh/tree/main/virtual-character-realism-design-zh
+```
+
+也可以手动安装。把仓库里的 `virtual-character-realism-design-zh/` 这个子文件夹复制到 Codex 的 skills 目录：
+
+```text
+~/.codex/skills/virtual-character-realism-design-zh/
+```
+
+Windows 常见位置是：
+
+```text
+C:\Users\<你的用户名>\.codex\skills\virtual-character-realism-design-zh\
+```
+
+注意：不要把整个仓库根目录直接放进 skills 目录。Codex 需要读到的是包含 `SKILL.md` 的那个子文件夹。
+
+安装后重启 Codex，让新 skill 被重新扫描。
 
 使用时可以这样说：
 
@@ -59,9 +81,9 @@ Use $virtual-character-realism-design-zh 帮我把这个角色想法整理成更
 Use $virtual-character-realism-design-zh 帮我把这段设定分流成角色卡、世界书、记忆和预设。
 ```
 
-## 作为普通 AI 提示文件使用
+### 普通 AI / Agents
 
-如果目标平台不支持 Codex skill，可以先把 `SKILL.md` 给 AI 阅读，再按任务补充对应 reference：
+如果目标平台不支持 Codex skill，可以把它当作一组给 AI 读取的 Markdown 指令使用。先给 AI 阅读 `virtual-character-realism-design-zh/SKILL.md`，再按任务补充对应 reference：
 
 - 理解理论和术语：`references/theory.md`
 - 决定工作流程：`references/workflow.md`
@@ -74,3 +96,11 @@ Use $virtual-character-realism-design-zh 帮我把这段设定分流成角色卡
 - 示例和反例：`references/cases.md`
 
 不要一次性把所有 reference 都塞给模型。先判断任务，再读取对应文件。
+
+常用组合：
+
+- 最小使用：`SKILL.md` + `references/theory.md` + `references/workflow.md`
+- 写入平台：最小使用 + `references/writing-targets.md`
+- 去 AI 腔修订：最小使用 + `references/anti-ai-tone.md`
+- 多角色互动：最小使用 + `references/dual-characters.md`
+- 深度建模：`SKILL.md` + 全部 reference，按上下文容量分批读取
