@@ -1,6 +1,6 @@
 ﻿---
 name: virtual-character-realism-design-zh
-description: 中文虚拟角色拟真创作 skill。用于帮助 AI 通过追问、角色底色、三重面相、晕染、本性与选择、防写偏说明、用户画像、关系变化、世界约束、记忆和角色扮演规则，协助作者构建更像人的虚拟角色，并整理为角色卡、世界书、记忆、预设、状态规则或其他平台内容。适用于角色创作、角色卡优化、长期互动设计、亲密关系与身体性处理、AI 扮演测试、写入前分流和去 AI 腔修订。
+description: 中文虚拟角色拟真创作 skill。用于帮助 AI 通过追问、角色底色、三重面相、晕染、本性与选择、防写偏说明、用户画像、关系变化、世界背景与生活层级、世界约束、记忆和角色扮演规则，协助作者构建更像人的虚拟角色，并整理为角色卡、世界书、记忆、预设、状态规则或其他平台内容。适用于角色创作、角色卡优化、长期互动设计、世界背景设计、亲密关系与身体性处理、AI 扮演测试、写入前分流和去 AI 腔修订。
 ---
 
 # Virtual Character Realism Design
@@ -58,10 +58,12 @@ description: 中文虚拟角色拟真创作 skill。用于帮助 AI 通过追问
 - 用户要求完整建模、系统整理或 108 问时，读 [question-bank-108.md](references/question-bank-108.md)。
 - 用户要求深度抽题、局部深挖或 260 问时，读 [question-bank-260.md](references/question-bank-260.md)。
 - 用户要求写入角色卡、世界书、记忆、预设、状态规则或做写入分流时，读 [writing-targets.md](references/writing-targets.md)。
+- 用户要求设计世界背景、生活层级、阶层压力、时代状态、日常生活细节、世界如何塑造角色时，读 [world-background.md](references/world-background.md)。
 - 用户要求双人角色、多角色关系、群像互动、多个角色同时在场或防串味时，读 [dual-characters.md](references/dual-characters.md)。
 - 用户要求去 AI 腔、修订文本、保留人味时，读 [anti-ai-tone.md](references/anti-ai-tone.md)。
 - 用户要求案例、示范、反例时，读 [cases.md](references/cases.md)。
 - 用户要求写亲密场景、身体反应、事后状态、性张力时，读 [intimacy.md](references/intimacy.md)。
+- 用户要求写记忆、整理记忆字段、适配 title / content / tags / notes 或记忆系统格式时，读 [memory-format.md](references/memory-format.md)。
 
 ## 输出前检查
 

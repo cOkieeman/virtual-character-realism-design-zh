@@ -31,7 +31,9 @@ virtual-character-realism-design-zh/
     question-bank-36.md
     question-bank-108.md
     question-bank-260.md
+    world-background.md
     writing-targets.md
+    memory-format.md
     dual-characters.md
     anti-ai-tone.md
     cases.md
@@ -90,7 +92,9 @@ Use $virtual-character-realism-design-zh 帮我把这段设定分流成角色卡
 - 快速追问：`references/question-bank-36.md`
 - 完整建模：`references/question-bank-108.md`
 - 深度抽题：`references/question-bank-260.md`
+- 世界背景与生活层级：`references/world-background.md`
 - 写入角色卡、世界书、记忆、预设：`references/writing-targets.md`
+- 记忆字段格式：`references/memory-format.md`
 - 多角色关系和防串味：`references/dual-characters.md`
 - 去 AI 腔：`references/anti-ai-tone.md`
 - 示例和反例：`references/cases.md`
@@ -101,6 +105,8 @@ Use $virtual-character-realism-design-zh 帮我把这段设定分流成角色卡
 
 - 最小使用：`SKILL.md` + `references/theory.md` + `references/workflow.md`
 - 写入平台：最小使用 + `references/writing-targets.md`
+- 世界背景：最小使用 + `references/world-background.md`
+- 记忆写入：最小使用 + `references/memory-format.md`
 - 去 AI 腔修订：最小使用 + `references/anti-ai-tone.md`
 - 多角色互动：最小使用 + `references/dual-characters.md`
 - 深度建模：`SKILL.md` + 全部 reference，按上下文容量分批读取
